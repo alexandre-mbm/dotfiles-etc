@@ -14,3 +14,8 @@ runtime! archlinux.vim
 " Or better yet, read /usr/share/vim/vim74/vimrc_example.vim or the vim manual
 " and configure vim to your own liking!
 syntax on
+
+" http://stackoverflow.com/a/1878983/3391915
+" In a codebase that uses 4 space characters for each indent, here are good
+" settings to start with:
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
